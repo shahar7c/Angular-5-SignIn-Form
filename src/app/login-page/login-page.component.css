@@ -1,0 +1,37 @@
+.container {
+    max-width: 400px;
+    text-align: center; 
+    font-family: Arial; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-login {
+    text-align: left; 
+    padding-bottom: 12px;
+}
+
+.form-control, h6{
+    margin-bottom: 2em;
+}
+
+.form-control{ 
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 0.5px solid;
+}
+
+.btn {
+    background-color: rgb(14, 176, 182);
+    color: white;
+    margin-top: 1.5em;
+}
+
+.colorText {
+    color: rgb(14, 176, 182);
+    font-weight: bold; 
+    cursor: pointer;
+}

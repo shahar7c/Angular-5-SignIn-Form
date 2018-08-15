@@ -1,0 +1,20 @@
+h1{
+    font-weight: bold;
+    font-size: 13vmin;
+    line-height: .8;
+    letter-spacing: -.06em;
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 20vh;
+    padding-left: 2vmax;
+  }
+  
+.highlight{
+    color: #27A4DD;
+}
+
+.btn {
+    margin-top: 1.5em;
+    padding-left: 2vmax;
+    text-align: center;
+}

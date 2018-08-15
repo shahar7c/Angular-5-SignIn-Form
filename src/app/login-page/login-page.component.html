@@ -1,0 +1,28 @@
+<div class="container">
+        <form [formGroup]="loginForm" class="form-login">
+            <h6>Sign in with your Flatkit Account</h6>
+            <div class="form-group">
+              <input type="text" 
+                     class="form-control" 
+                     formControlName="email"
+                     required="true" 
+                     placeholder="Email">
+            </div> 
+            <div class="form-group">
+              <input type="password" 
+                     class="form-control" 
+                     formControlName="password"
+                     required="true" 
+                     placeholder="Password">
+            </div>
+            <input type="checkbox" 
+                   formControlName="keepSigned"> Keep me signed in
+            <button type="button" 
+                    class="btn btn-lg btn-block" 
+                    (click)="signIn()">Sign In
+            </button>
+        </form>
+        <p class="colorText" (click)="forgotPass()">Forgot password?</p>
+        <span class="regText">Do not have an account?</span> 
+        <span class="colorText">Sign up</span>
+</div>
